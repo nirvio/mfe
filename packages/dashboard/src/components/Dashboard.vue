@@ -244,11 +244,6 @@
         </DataTable>
       </div>
     </div>
-    <div class="p-col-12 p-lg-6">
-      <div class="card">
-        <Chart type="line" :data="lineData" />
-      </div>
-    </div>
   </div>
 </template>
 
@@ -265,7 +260,6 @@ import InputText from 'primevue/inputtext';
 import Button from 'primevue/button';
 import Column from 'primevue/column';
 import DataTable from 'primevue/datatable';
-import Chart from 'primevue/chart';
 import ProgressBar from 'primevue/progressbar';
 
 export default {
@@ -278,7 +272,6 @@ export default {
     Button,
     Column,
     DataTable,
-    Chart,
   },
   data() {
     return {

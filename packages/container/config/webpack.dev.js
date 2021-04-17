@@ -10,8 +10,9 @@ const devConfig = {
   },
   devServer: {
     port: 8080,
-    historyApiFallback: {
-      index: 'index.html',
+    historyApiFallback: true,
+    headers: {
+      'Access-Control-Allow-Origin': '*',
     },
   },
   plugins: [
